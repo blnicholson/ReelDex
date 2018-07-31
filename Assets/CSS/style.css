@@ -1,0 +1,147 @@
+body {
+    /* margin: 0 20px; */
+  }
+
+  /* Navigation Bar */
+  .nav-wrapper {
+      background: #40c4ff;
+      padding: 20px 20px 100px 100px;
+  
+  }
+  /* Title: The Reel Choice */
+  #brand-logo{
+      text-align: center;
+      font-size: 40px;
+  }
+  
+  /* Movie Search Engine */
+  .nav-wrapper2 {
+      margin-top: 115px;
+      border: 1px solid #e0e0e0;
+      width: 500px;
+      height: 200px;
+      background: #e0e0e0;
+  
+  }
+  
+
+  #moviesearch {
+      text-align: center;
+      font-size: 20px;
+  }
+  
+  .input-search {
+      position: relative;
+      margin: 0;
+  }
+  
+  /* Inside of Search box */
+  #search {
+      background: white;
+      width: 62%;
+      margin: 28px 0px 46px 38px;    
+  }
+  
+  /* Movie Title, Actor, Movie Quote */
+  #insidesearch{
+      position: relative;
+      bottom: 87px;
+      left: 48px;
+    opacity: 5;
+  }
+  
+  
+  /* Movie Film Icon inside of Text box */
+  .material-icons {
+      margin: 0px auto;
+      position: relative;
+      bottom: -7px;
+      left: 53px;
+  
+  }
+  
+  /* Search Button */
+  .waves-effect.waves-light.btn-small{
+      position:relative;
+      bottom: 100px;
+      left: 85px;
+      top: -2px;
+      background: #40c4ff;
+  }
+  
+  
+  .container {
+      padding-bottom: 150px;
+      margin: 0 auto;
+  
+  }
+  
+
+/* Movie Synopsis Box */
+  .nav-wrapper3 {
+    width: 500px;
+    height: 515px;
+    background: #e0e0e0;
+
+}
+
+
+#MovieSynopsis {
+text-align: center;
+font-size: 30px;
+}
+
+
+/* Movie Trailer/Poster/Giph */
+.nav-wrapper4 {
+    position: relative;
+    float: left;
+    left: 551px;
+    top: -756px;
+    width: 600px;
+    height: 596px;
+    background: #40c4ff;
+    
+}
+
+h1{
+    text-align: center;
+    font-size: 30px;
+}
+
+
+/* Links to Movie Theaters/Movie Soundtrack */
+.nav-wrapper5{
+    width: 600px;
+    height: 220px;
+    background: #e0e0e0;
+    position: relative;
+    left: 555px;
+    bottom: 100px;
+
+}
+
+#Cut {
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+    bottom: 500px
+}
+
+
+/* Did you know?! */
+.nav-wrapper6{
+    width: 501px;
+    height: 87px;
+    background: #e0e0e0;
+    position: relative;
+    bottom: 228px;
+
+}
+
+#Did-you-know{
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+    bottom: 313px;
+}
