@@ -1,13 +1,26 @@
 body {
-    /* margin: 0 20px; */
-  }
+    margin: 0 20px;
+}
+    /* background-image: url("../Images/62b_movies2018.jpg");
+    background-repeat: no-repeat center center fixed; 
+    background-size: cover;
+}
+
+
 
   /* Navigation Bar */
   .nav-wrapper {
       background: #40c4ff;
       padding: 20px 20px 100px 100px;
-  
-  }
+      background-image: url("../Images/62b_movies2018.jpg");
+      width: 100%;
+      height: 9px;
+      background-repeat: no-repeat center center fixed; 
+      background-size: contain;
+
+  /* } */  }
+
+
   /* Title: The Reel Choice */
   #brand-logo{
       text-align: center;
@@ -73,7 +86,7 @@ body {
   .container {
       padding-bottom: 150px;
       margin: 0 auto;
-  
+      
   }
   
 
