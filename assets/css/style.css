@@ -1,1 +1,99 @@
-/*THIS WILL BE FOR STYLING*/
+/*====================BACKGROUND START========================*/
+html {
+    background: url("../images/backgrounds/background-film.jpg") no-repeat center center fixed;
+    background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+}
+/*================BACKGROUND END=============================*/
+
+/*BODY START*/
+body {
+    color: ghostwhite;
+    font-family: 'Limelight', cursive;
+}
+/*==================BODY END================================*/
+
+/*==================SLICK.JS SLIDER IMAGE STYLING START=======================*/
+img {
+    width: 300px;
+    height: 475px;
+    margin: 14px 5px;
+}
+/*===================SLICK.JS SLIDER IMAGE STYLING END=======================*/
+
+/*============CONTENT START===============================*/
+.container {
+    margin-top: 12%;
+}
+
+.card {
+    background-color: rgba(12, 12, 12, 0.801);
+    width: 80%;
+}
+
+/*REELDEX TITLE START*/
+.header {
+    font-size: 66px;
+}
+/*REELDEX TITLE END*/
+
+/*SHOWTIME BUTTON START*/
+button{
+    color: ghostwhite;
+    margin-top: 25px;
+    width: 75px;
+    height: 75px;
+    background: transparent;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+/*SHOWTIME BUTTON END*/
+
+/*SEARCH FORM START*/
+.search-wrapper{
+    margin-left: 50%;
+    margin-top: 20%;
+}
+.search-box {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    height: 40px;
+    background: ghostwhite;
+    border-radius: 40px;
+}
+.search-box:hover > .search-text{
+    width: 240px;
+    padding: 0 6px;
+}
+.search-box:hover > .search-btn{
+    background: red;
+}
+.search-btn {
+    color: black;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: ghostwhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+.search-text {
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: black;
+    font-size: 16px;
+    transition: .5s;
+    line-height: 40px;
+    width: 0px;
+}
+/*SEARCH FORM END*/
+
+/*============CONTENT END===============================*/
