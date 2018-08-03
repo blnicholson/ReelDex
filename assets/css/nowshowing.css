@@ -55,3 +55,29 @@ p {
 footer.page-footer {
   margin: 0;
 }
+
+body {
+  background: url("../images/theatercurtain.JPG");
+  repeat: no-repeat;
+}
+
+h4 {
+  color: white;
+}
+
+h5{
+  color: white;
+}
+
+nav .nav-wrapper {
+  background: black;
+  width: 100%;
+}
+
+.material-icons {
+  color: white;
+}
+
+.sidenav {
+color: white;
+}
