@@ -58,7 +58,9 @@ footer.page-footer {
 
 body {
   background: url("../images/theatercurtain.JPG");
-  repeat: no-repeat;
+  background-repeat: no-repeat;
+  background-size:cover;
+  
 }
 
 h4 {
@@ -80,4 +82,11 @@ nav .nav-wrapper {
 
 .sidenav {
 color: white;
+}
+#nowPlaying{
+  color:white;
+  text-align:center;
+}
+#searchBar{
+  margin:left;
 }
