@@ -60,6 +60,7 @@ body {
   background: url("../images/theatercurtain.JPG");
   background-repeat: no-repeat;
   background-size:cover;
+  font-family: 'Limelight', cursive;
   
 }
 
@@ -86,6 +87,9 @@ color: white;
 #nowPlaying{
   color:white;
   text-align:center;
+}
+.material-icons{
+  color: darkgrey;
 }
 #searchBar{
   margin:left;
