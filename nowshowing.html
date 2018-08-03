@@ -2,57 +2,74 @@
 <html lang="en">
 
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>ReeldeX</title>
-
+  <!--GOOGLE FONTS-->
+  <link href="https://fonts.googleapis.com/css?family=Limelight" rel="stylesheet">
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="assets/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link href="assets/css/nowshowing.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="assets/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="assets/css/nowshowing.css" type="text/css" rel="stylesheet" media="screen,projection" />
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script src = "assets/JavaScript/app.js"></script>
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="assets/JavaScript/app.js"></script>
 </head>
 
 <body>
   <nav class="white" role="navigation">
     <div class="nav-wrapper container">
-      <a id="logo-container" href="#" class="brand-logo"><i class="material-icons">videocam</i></a>
+      <a id="logo-container" href="#" class="brand-logo">
+        <i class="material-icons">videocam</i>
+      </a>
       <ul class="right hide-on-med-and-down">
-        <li><a href="#">Movies in Theaters Now</a></li>
-        <li><a href="#">Movie Blast From the Past</a></li>
+        <li>
+          <a href="#">Movies in Theaters Now</a>
+        </li>
+        <li>
+          <a href="#">Movie Blast From the Past</a>
+        </li>
       </ul>
 
       <ul id="nav-mobile" class="sidenav">
-        <li><a href="#">Movies in Theaters Now</a></li>
-        <li><a href="#">Movie Blast From the Past</a></li>
+        <li>
+          <a href="#">Movies in Theaters Now</a>
+        </li>
+        <li>
+          <a href="#">Movie Blast From the Past</a>
+        </li>
       </ul>
-      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      <a href="#" data-target="nav-mobile" class="sidenav-trigger">
+        <i class="material-icons">menu</i>
+      </a>
     </div>
   </nav>
 
   <div id="index-banner" class="parallax-container">
     <div class="section no-pad-bot">
       <div class="container">
-        <br><br>
+        <br>
+        <br>
         <h1 class="header center teal-text text-lighten-2">Reels</h1>
         <div class="row center">
           <h5 class="header col s12 light">An App Where You Can Find a Cool Movie, Check Out the Trailer, & Listen to the Soundtrack</h5>
         </div>
 
-        <div id ="searchBar" class="row center">
+        <div id="searchBar" class="row center">
           <div class="input-field col s6">
             <input id="search" type="search" class="validate">
             <label for="search">Search</label>
-          <a href="http://materializecss.com/getting-started.html" id="search-button" class="btn-large waves-effect waves-light teal lighten-1">Movie Search</a>
+            <a href="http://materializecss.com/getting-started.html" id="search-button" class="btn-large waves-effect waves-light teal lighten-1">Movie Search</a>
+          </div>
         </div>
-        </div>
-        <br><br>
+        <br>
+        <br>
 
       </div>
     </div>
-    <div class="parallax"><img src="assets/images/62b_movies2018.jpg" alt="movie img 1"></div>
+    <div class="parallax">
+      <img src="assets/images/62b_movies2018.jpg" alt="movie img 1">
+    </div>
   </div>
 
 
@@ -63,16 +80,20 @@
       <div class="row">
         <div class="col s12 m4">
           <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">movie</i></h2>
+            <h2 class="center brown-text">
+              <i class="material-icons">movie</i>
+            </h2>
             <h5 class="center">Want to Know More?!</h5>
 
-            
+
           </div>
         </div>
 
         <div class="col s12 m4">
           <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">theaters</i></h2>
+            <h2 class="center brown-text">
+              <i class="material-icons">theaters</i>
+            </h2>
             <h5 class="center">Take 2!</h5>
 
             <p class="light">This will be a placeholder for the movie poster that will append in this section.</p>
@@ -81,9 +102,71 @@
 
         <div class="col s12 m4">
           <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">audiotrack</i></h2>
+            <h2 class="center brown-text">
+              <i class="material-icons">audiotrack</i>
+            </h2>
             <h5 class="center">Now Playing in Theaters</h5>
-            <div id="nowPlaying"></div>
+            <div id="nowPlaying">
+              <!--NOW PLAYING REVEAL CARDS START-->
+              <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="assets/images/movie_posters/theburbs.jpg">
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4">The Burbs
+                    <i class="material-icons right">more_vert</i>
+                  </span>
+                  <p>
+                    <a href="#">This is a link</a>
+                  </p>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4">Card Title
+                    <i class="material-icons right">close</i>
+                  </span>
+                  <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="assets/images/movie_posters/et.jpg">
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4">E.T.
+                    <i class="material-icons right">more_vert</i>
+                  </span>
+                  <p>
+                    <a href="#">This is a link</a>
+                  </p>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4">Cocktail
+                    <i class="material-icons right">close</i>
+                  </span>
+                  <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="assets/images/movie_posters/coctail.jpg">
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator grey-text text-darken-4">Card Title
+                    <i class="material-icons right">more_vert</i>
+                  </span>
+                  <p>
+                    <a href="#">This is a link</a>
+                  </p>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title grey-text text-darken-4">Card Title
+                    <i class="material-icons right">close</i>
+                  </span>
+                  <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                </div>
+              </div>
+              <!--NOW PLAYING REVEAL CARDS END-->
+            </div>
           </div>
         </div>
       </div>
@@ -101,9 +184,11 @@
       </div>
     </div>
 
-<!-- Replaced by Movie Trailer -->
+    <!-- Replaced by Movie Trailer -->
 
-    <div class="parallax"><img src="assets/images/moviereelimage2.JPG" alt="Movie Reel img 2"></div>
+    <div class="parallax">
+      <img src="assets/images/moviereelimage2.JPG" alt="Movie Reel img 2">
+    </div>
   </div>
 
   <div class="container">
@@ -111,16 +196,23 @@
 
       <div class="row">
         <div class="col s12 center">
-          <h3><i class="mdi-content-send brown-text"></i></h3>
+          <h3>
+            <i class="mdi-content-send brown-text"></i>
+          </h3>
           <h4>Movie Theaters Near You</h4>
-          <p class="left-align light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros. Morbi sem neque, posuere et pretium eget, bibendum sollicitudin lacus. Aliquam eleifend sollicitudin diam, eu mattis nisl maximus sed. Nulla imperdiet semper molestie. Morbi massa odio, condimentum sed ipsum ac, gravida ultrices erat. Nullam eget dignissim mauris, non tristique erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
+          <p class="left-align light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque
+            tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a
+            sapien id, viverra ultrices eros. Morbi sem neque, posuere et pretium eget, bibendum sollicitudin lacus. Aliquam
+            eleifend sollicitudin diam, eu mattis nisl maximus sed. Nulla imperdiet semper molestie. Morbi massa odio, condimentum
+            sed ipsum ac, gravida ultrices erat. Nullam eget dignissim mauris, non tristique erat. Vestibulum ante ipsum
+            primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
         </div>
       </div>
 
     </div>
   </div>
 
-<!-- 
+  <!-- 
   <div class="parallax-container valign-wrapper">
     <div class="section no-pad-bot">
       <div class="container">
@@ -137,7 +229,7 @@
       <div class="row">
         <div class="col l6 s12">
           <h5 class="white-text">Company Bio</h5> -->
-          <!-- <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
+  <!-- <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
 
 
         </div>
@@ -150,8 +242,8 @@
             <li><a class="white-text" href="#!">Link 4</a></li>
           </ul>
         </div> -->
-        <!-- <div class="col l3 s12">  -->
-          <!-- <h5 class="white-text">Connect</h5>
+  <!-- <div class="col l3 s12">  -->
+  <!-- <h5 class="white-text">Connect</h5>
           <ul>
             <li><a class="white-text" href="#!">Link 1</a></li>
             <li><a class="white-text" href="#!">Link 2</a></li>
@@ -160,7 +252,7 @@
           </ul>
         </div>
       </div> -->
-    <!-- </div>
+  <!-- </div>
     <div class="footer-copyright">
       <div class="container">
 
@@ -173,5 +265,6 @@
   <script src="assets/js/materialize.js"></script>
   <script src="assets/js/init.js"></script>
 
-  </body>
+</body>
+
 </html>
