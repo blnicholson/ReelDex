@@ -43,6 +43,21 @@ $(document).ready(function() {
      $("#nowPlaying").append(image3);
     
    
+
+
+    //===================CAROUSEL START=============================//
+    $('.carousel').carousel({
+        duration: 200
+    });
+    window.setInterval(function() { $(".carousel").carousel('next') }, 4500);
+    //===================CAROUSEL END=============================//
+
+//=================ENTERTAINMENT NEWS TICKER START===================//
+    $('#webTicker').webTicker();
+//=================ENTERTAINMENT NEWS TICKER END===================//
+
+});
+
    
     //User on-click to search for movies
     $("#search-button").on("click", function(event) {
@@ -94,3 +109,4 @@ $(document).ready(function() {
   });
   });
   
+
