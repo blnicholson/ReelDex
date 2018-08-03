@@ -50,11 +50,12 @@ $(document).ready(function() {
       event.preventDefault();
   
       //Emptying HTML when a new search is performed
-      $("#movie-view").empty();
+      $("#movieInfo").empty();
+      $("#moviePoster").empty();
       
   
       //beginning of AJAX call 2 
-      var movie = $("#movie-input").val();
+      var movie = $("#search").val();
       var queryURL = "https://www.omdbapi.com/?t=" + movie + "&y=&plot=short&apikey=trilogy";
   
       // Creating an AJAX call for the specific movie button being clicked 
@@ -70,19 +71,19 @@ $(document).ready(function() {
         var actors = response.Actors;
         var rated = response.Rated;
         var plot = response.Plot;
-        var rottenTomotoes =JSON.stringify (response.Ratings[1].Value);
+        var rottenTomotoes = response.Ratings[1].Value;
         var poster = $("<img>").attr("src", imgURL);
   
         //placing API call into HTML elements
-        $("#movie-view").append("<p>" + movieTitle);
-        $("#movie-view").append(poster);
-        $("#movie-view").append("<p> Rotten Tomotos Rating: " + rottenTomotoes);
-        $("#movie-view").append("<p> Leading actors: " + actors);
-        $("#movie-view").append("<p> Movie is rated: " + rated);
-        $("#movie-view").append("<p> Plot: " + plot);
+        $("#movieInfo").append("<p>" + movieTitle);
+        $("#moviePoster").append(poster);
+        $("#movieInfo").append("<p> Rotten Tomotoes Rating: " + rottenTomotoes);
+        $("#movieInfo").append("<p> Leading actors: " + actors);
+        $("#movieInfo").append("<p> Movie is rated: " + rated);
+        $("#movieInfo").append("<p> Plot: " + plot);
   
         //Emptying out text box
-         $("#movie-input").val("");
+         $("#search").val("")
       });
    
   });
