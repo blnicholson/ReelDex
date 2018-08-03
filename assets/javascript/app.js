@@ -83,16 +83,15 @@ $.ajax({
 
    
 
-    //===================SLICK.JS SLIDER SINGLE VERTICLE POSTER SLIDER START=============================//
-    // $(".Vertical-Slider").slick({
-    //     slidesToScroll: 1,
-    //     autoplay: true,
-    //     autoplaySpeed: 2000,
-    //     dots: false,
-    //     prevArrow: false,
-    //     nextArrow: false,
-    //     fade: true
-    // });
-    //===================SLICK.JS SLIDER SINGLE VERTICLE POSTER SLIDER END=============================//
+    //===================CAROUSEL START=============================//
+    $('.carousel').carousel({
+        duration: 200
+    });
+    window.setInterval(function() { $(".carousel").carousel('next') }, 4500);
+    //===================CAROUSEL END=============================//
+
+//=================ENTERTAINMENT NEWS TICKER START===================//
+    $('#webTicker').webTicker();
+//=================ENTERTAINMENT NEWS TICKER END===================//
 
 });
