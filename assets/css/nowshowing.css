@@ -57,8 +57,9 @@ footer.page-footer {
 }
 
 body {
-  background: url("../images/theatercurtain.JPG");
-  repeat: no-repeat;
+  background: url("../images/black.jpeg");
+  font-family: 'Limelight', cursive;
+  background-repeat: contain;
 }
 
 h4 {
@@ -70,14 +71,15 @@ h5{
 }
 
 nav .nav-wrapper {
-  background: black;
+  background:black;
   width: 100%;
+
 }
 
 .material-icons {
   color: white;
 }
 
-.sidenav {
+#nav-mobile {
 color: white;
 }
