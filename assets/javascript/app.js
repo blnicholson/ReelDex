@@ -28,13 +28,13 @@ $(document).ready(function() {
      var poster3=("https://image.tmdb.org/t/p/w200/" + response.results[2].poster_path);
     
      var image1=$("<img>").attr("src", poster1);
-     var image2=$("<img id ='poster'>").attr("src", poster2);
-     var image3=$("<img id ='poster'>").attr("src", poster3);
+     var image2=$("<img>").attr("src", poster2);
+     var image3=$("<img>").attr("src", poster3);
   
      //Adding API call to HTML Elements
-     $("#nowPlaying").append("<h4>" + movieRec1);
-     $("#nowPlaying").append("<p>" + overView1);
-     $("#nowPlaying").append(image1);
+     $("#movieTitle").append("<h4>" + movieRec1);
+     $("#movieInformation").append("<p>" + overView1);
+     $("#picture1").append(image1);
      $("#nowPlaying").append("<h4>" + movieRec2);
      $("#nowPlaying").append("<p>" + overView2);
      $("#nowPlaying").append(image2);
@@ -43,6 +43,21 @@ $(document).ready(function() {
      $("#nowPlaying").append(image3);
     
    
+
+
+    //===================CAROUSEL START=============================//
+    $('.carousel').carousel({
+        duration: 200
+    });
+    window.setInterval(function() { $(".carousel").carousel('next') }, 4500);
+    //===================CAROUSEL END=============================//
+
+//=================ENTERTAINMENT NEWS TICKER START===================//
+    // $('#webTicker').webTicker();
+//=================ENTERTAINMENT NEWS TICKER END===================//
+
+});
+
    
     //User on-click to search for movies
     $("#search-button").on("click", function(event) {
@@ -93,5 +108,6 @@ $(document).ready(function() {
   
       
   });
-  });
+ 
   
+

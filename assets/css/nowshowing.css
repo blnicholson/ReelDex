@@ -21,29 +21,13 @@ p {
 
 .parallax-container {
   min-height: 380px;
-  line-height: 0;
+  line-height:0;
   height: auto;
   color: rgba(255,255,255,.9);
 }
   .parallax-container .section {
     width: 100%;
   }
-
-@media only screen and (max-width : 992px) {
-  .parallax-container .section {
-    position: absolute;
-    top: 40%;
-  }
-  #index-banner .section {
-    top: 10%;
-  }
-}
-
-@media only screen and (max-width : 600px) {
-  #index-banner .section {
-    top: 0;
-  }
-}
 
 .icon-block {
   padding: 0 15px;
@@ -60,19 +44,19 @@ body {
   background: url("../images/theatercurtain.JPG");
   background-repeat: no-repeat;
   background-size:cover;
+  font-family: 'Limelight', cursive;
   
 }
 
-h4 {
+/* h4 {
   color: white;
-}
+} */
 
 h5{
   color: white;
 }
 
-nav .nav-wrapper {
-  background: black;
+.nav-wrapper {
   width: 100%;
 }
 
@@ -83,9 +67,9 @@ nav .nav-wrapper {
 .sidenav {
 color: white;
 }
-#nowPlaying{
-  color:white;
-  text-align:center;
+
+.material-icons{
+  color: darkgrey;
 }
 #searchBar{
   margin:left;
@@ -93,4 +77,18 @@ color: white;
 #movieInfo{
   text-align:center;
   color:white;
+}
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
 }
