@@ -14,7 +14,9 @@ nav .brand-logo {
 p {
   line-height: 2rem;
 }
-
+nav{
+  background-color:transparent;
+}
 .sidenav-trigger {
   color: #26a69a;
 }
@@ -41,11 +43,12 @@ footer.page-footer {
 }
 
 body {
-  background: url("../images/theatercurtain.JPG");
+
+  background: url("../images/black.jpeg");
+  font-family: 'Limelight', cursive;
   background-repeat: no-repeat;
   background-size:cover;
-  font-family: 'Limelight', cursive;
-  
+ 
 }
 
 /* h4 {
@@ -58,13 +61,14 @@ h5{
 
 .nav-wrapper {
   width: 100%;
+
 }
 
 .material-icons {
   color: white;
 }
 
-.sidenav {
+#nav-mobile {
 color: white;
 }
 
@@ -73,6 +77,21 @@ color: white;
 }
 #searchBar{
   margin:left;
+}
+#movieInfo{
+  text-align:center;
+  color:black;
+  font-size:25px;
+}
+#movieTitle
+
+
+
+
+
+
+video{
+  width: 800px;
 }
 #movieInfo{
   text-align:center;
