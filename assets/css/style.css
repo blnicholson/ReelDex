@@ -24,6 +24,9 @@ header{
     margin: auto;
 }
 
+h6{
+    font-family: 'Raleway', sans-serif;
+}
 main {
   flex: 1 0 auto;
 }
@@ -37,18 +40,24 @@ main {
 }
 
 .enter-button{
-    margin-left: 43%;
+    margin-left: 45%;
+    
 }
 
-.btn{
-    background: black;
+.btn-large{
+    background: black; 
 }
-.btn:hover{
+.btn-large:hover{
     background: red;
 }
 
 .page-footer{
     background: transparent;
+}
+
+#webTicker{
+    /* border: 2px solid ghostwhite; */
+
 }
 
 /*============CONTENT END===============================*/

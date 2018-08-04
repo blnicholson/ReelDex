@@ -59,6 +59,10 @@ h5{
   color: white;
 }
 
+p{
+  font-family: 'Raleway', sans-serif;
+}
+
 .nav-wrapper {
   width: 100%;
 
@@ -72,10 +76,9 @@ h5{
 color: white;
 }
 
-<<<<<<< HEAD
 .white {
   background: black;
-=======
+}
 .material-icons{
   color: darkgrey;
 }
@@ -87,16 +90,11 @@ color: white;
   color:black;
   font-size:25px;
 }
-#movieTitle
 
-
-
-
-
-
-video{
+video {
   width: 800px;
 }
+
 #movieInfo{
   text-align:center;
   color:white;
@@ -114,5 +112,4 @@ video{
   #index-banner .section {
     top: 0;
   }
->>>>>>> ca17ce08ee8d4f1a3382510f0a9e4cdc56d9708c
 }

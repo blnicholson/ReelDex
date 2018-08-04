@@ -8,8 +8,12 @@
     <title>ReeldeX</title>
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
-    <!--GOOGLE FONTS-->
+    <!--GOOGLE ICONS CDN-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--GOOGLE FONTS CDN-->
     <link href="https://fonts.googleapis.com/css?family=Limelight" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <!--Local CSS-->
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
@@ -55,35 +59,44 @@
                     </div>
                     <br>
                     <div class="enter-button">
-                        <form action = "nowshowing.html">
-                            <button type="submit" a class ="waves-effect waves-light btn">Enter</a></button>
-                    </form>
-                   </div>
+                        <form action="nowshowing.html">
+                                <a class="btn-floating btn-large"><i class="material-icons">theaters</i></a>
+                        </form>
+
+                    </div>
                 </div>
             </div>
         </div>
     </main>
 
     <footer class="page-footer">
-            <div class="container">
-              <div class="row">
+        <div class="container">
+            <div class="row">
                 <div class="col l6 s12">
-                        <h5 class="white-text">Entertainment News</h5>
-                        <ul id="webTicker">
-                                <li id = "scrolling1">This List Item will scroll infintely</li>
-                                <li id = "scrolling2">And this one will follow it</li>
-                                <li id="scrolling3">Finally when it goes out of screen, it will queue again at the end</li>
+                    <h5 class="white-text">Entertainment News</h5>
+                    <div class="ticketcontainer">
+                        <div class="mask">
+                            <ul id="webTicker">
+                                <li class="ticker-spacer"></li>
+                                    <li id="scrolling1">This List Item will scroll infintely</li>
+                                    <li id="scrolling2">And this one will follow it</li>
+                                    <li id="scrolling3">Finally when it goes out of screen, it will queue again at the end</li>
+                                <li class="last">Finally when it goes out of screen. it will queue again at the end</li>
                             </ul>
+                        <span class="ticketoverlay-left">&nbsp</span>
+                        <span class="ticketoverlay-right">&nbsp</span>
+                        
+                        </div>
+                    </div>
                 </div>
-                
-              </div>
             </div>
-            <div class="footer-copyright">
-              <div class="container">
-              ReeldeX © 2018 Copyright Text
-              </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                ReeldeX © 2018 Copyright Text
             </div>
-          </footer>
+        </div>
+    </footer>
 
 
 
