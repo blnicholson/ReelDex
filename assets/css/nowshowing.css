@@ -90,9 +90,16 @@ color: white;
   color:black;
   font-size:25px;
 }
+<<<<<<< HEAD
 
 video {
   width: 800px;
+=======
+#movieTitle
+
+video{
+  width:800px;
+>>>>>>> 256c9c85c0cbeed3a7d0a01ac7032f327178976f
 }
 
 #movieInfo{
