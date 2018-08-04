@@ -72,6 +72,10 @@ h5{
 color: white;
 }
 
+<<<<<<< HEAD
+.white {
+  background: black;
+=======
 .material-icons{
   color: darkgrey;
 }
@@ -105,4 +109,5 @@ video{
   #index-banner .section {
     top: 0;
   }
+>>>>>>> ca17ce08ee8d4f1a3382510f0a9e4cdc56d9708c
 }
