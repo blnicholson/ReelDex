@@ -14,36 +14,22 @@ nav .brand-logo {
 p {
   line-height: 2rem;
 }
-
+nav{
+  background-color:transparent;
+}
 .sidenav-trigger {
   color: #26a69a;
 }
 
 .parallax-container {
   min-height: 380px;
-  line-height: 0;
+  line-height:0;
   height: auto;
   color: rgba(255,255,255,.9);
 }
   .parallax-container .section {
     width: 100%;
   }
-
-@media only screen and (max-width : 992px) {
-  .parallax-container .section {
-    position: absolute;
-    top: 40%;
-  }
-  #index-banner .section {
-    top: 10%;
-  }
-}
-
-@media only screen and (max-width : 600px) {
-  #index-banner .section {
-    top: 0;
-  }
-}
 
 .icon-block {
   padding: 0 15px;
@@ -57,21 +43,23 @@ footer.page-footer {
 }
 
 body {
+
   background: url("../images/black.jpeg");
   font-family: 'Limelight', cursive;
-  background-repeat: contain;
+  background-repeat: no-repeat;
+  background-size:cover;
+ 
 }
 
-h4 {
+/* h4 {
   color: white;
-}
+} */
 
 h5{
   color: white;
 }
 
-nav .nav-wrapper {
-  background:black;
+.nav-wrapper {
   width: 100%;
 
 }
@@ -84,6 +72,47 @@ nav .nav-wrapper {
 color: white;
 }
 
+<<<<<<< HEAD
 .white {
   background: black;
+=======
+.material-icons{
+  color: darkgrey;
+}
+#searchBar{
+  margin:left;
+}
+#movieInfo{
+  text-align:center;
+  color:black;
+  font-size:25px;
+}
+#movieTitle
+
+
+
+
+
+
+video{
+  width: 800px;
+}
+#movieInfo{
+  text-align:center;
+  color:white;
+}
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+>>>>>>> ca17ce08ee8d4f1a3382510f0a9e4cdc56d9708c
 }

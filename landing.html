@@ -6,89 +6,92 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>ReeldeX</title>
-    <!--MATERIALIZE CDN CSS-->
+    <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
-    <!--SLICK.JS SLIDER CSS CDN-->
-    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <!--GOOGLE FONTS-->
     <link href="https://fonts.googleapis.com/css?family=Limelight" rel="stylesheet">
-    <!--FONT AWESOME-->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
-        crossorigin="anonymous">
-    <!--LOCAL CSS-->
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
+    <header>
 
-    <div class="container">
+    </header>
+
+    <main>
         <div class="row">
-            <div class="col l12">
-                <div class="card large z-depth-5">
-                    <div class="col m4">
-                        <div id="slide-wrapper">
-                            <div class="Vertical-Slider">
-                                <div>
-                                    <img src="assets/images/movie_posters/batman.jpg">
-                                </div>
-                                <div>
-                                    <img src="assets/images/movie_posters/coctail.jpg">
-                                </div>
-                                <div>
-                                    <img src="assets/images/movie_posters/jurassicpark.jpg">
-                                </div>
-                                <div>
-                                    <img src="assets/images/movie_posters/thegoonies.jpg">
-                                </div>
-                                <div>
-                                    <img src="assets/images/movie_posters/theburbs.jpg">
-                                </div>
-                                <div>
-                                    <img src="assets/images/movie_posters/et.jpg">
-                                </div>
-                                <div>
-                                    <img src="assets/images/movie_posters/dirtydancing.jpg">
-                                </div>
-                                <div>
-                                    <img src="assets/images/movie_posters/ghostbuster.jpg">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col m8">
-                        <div class="center-align">
-                            <h2 class="header">ReeldeX</h2>
-                            <p class="">Welcome to Your Source for Everything Movie's!</p>
+            <div class="col m6">
+                <div class="card-panel z-depth-5 z-depth-5">
+                    <h2 class="card-title center-align">ReeldeX</h2>
+                    <h6 class="white-text">
+                        Welcome to your central source for information on all of your favorite movies!
+                    </h6>
 
-                            <div class="button-wrapper">
-                                <button>
-                                    <i class="fas fa-film fa-3x"></i>
-                                </button>
-                            </div>
-                            <h6>Showtime</h6>
-                            <div class="search-wrapper">
-                                <div class="search-box">
-                                    <input class="browser-default search-text" type="text" placeholder="Search...">
-                                    <a class="search-btn" href="#">
-                                        <i class="fas fa-search"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="carousel">
+                        <a class="carousel-item" href="#one!">
+                            <img src="assets/images/movie_posters/batman.jpg">
+                        </a>
+                        <a class="carousel-item" href="#two!">
+                            <img src="assets/images/movie_posters/coctail.jpg">
+                        </a>
+                        <a class="carousel-item" href="#three!">
+                            <img src="assets/images/movie_posters/dirtydancing.jpg">
+                        </a>
+                        <a class="carousel-item" href="#four!">
+                            <img src="assets/images/movie_posters/et.jpg">
+                        </a>
+                        <a class="carousel-item" href="#five!">
+                            <img src="assets/images/movie_posters/ghostbuster.jpg">
+                        </a>
+                        <a class="carousel-item" href="#six!">
+                            <img src="assets/images/movie_posters/jurassicpark.jpg">
+                        </a>
+                        <a class="carousel-item" href="#seven!">
+                            <img src="assets/images/movie_posters/theburbs.jpg">
+                        </a>
+                        <a class="carousel-item" href="#eight!">
+                            <img src="assets/images/movie_posters/thegoonies.jpg">
+                        </a>
                     </div>
+                    <br>
+                    <div class="enter-button">
+                        <form action = "nowshowing.html">
+                            <button type="submit" a class ="waves-effect waves-light btn">Enter</a></button>
+                    </form>
+                   </div>
                 </div>
-
             </div>
         </div>
-    </div>
+    </main>
+
+    <footer class="page-footer">
+            <div class="container">
+              <div class="row">
+                <div class="col l6 s12">
+                        <h5 class="white-text">Entertainment News</h5>
+                        <ul id="webTicker">
+                                <li id = "scrolling1">This List Item will scroll infintely</li>
+                                <li id = "scrolling2">And this one will follow it</li>
+                                <li id="scrolling3">Finally when it goes out of screen, it will queue again at the end</li>
+                            </ul>
+                </div>
+                
+              </div>
+            </div>
+            <div class="footer-copyright">
+              <div class="container">
+              ReeldeX © 2018 Copyright Text
+              </div>
+            </div>
+          </footer>
+
+
 
     <!--jQUERY CDN-->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-    <!--SLICK JAVASCRIPT-->
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-    <!--MATERIALIZE CDN JAVASCRIPT-->
+    <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
-    <!--LOCAL JAVASCRIPT-->
+    <script src="assets/javascript/jquery.webticker.min.js"></script>
     <script src="assets/javascript/app.js"></script>
 </body>
 
