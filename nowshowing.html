@@ -19,11 +19,11 @@
   <link href="assets/css/nowshowing.css" type="text/css" rel="stylesheet" media="screen,projection" />
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="assets/JavaScript/app.js"></script
+  
 </head>
 
 <body>
-  <nav class="white" role="navigation">
+  <nav  role="navigation">
     <div class="nav-wrapper container">
       <a id="logo-container" href="#" class="brand-logo">
         <i class="material-icons">videocam</i>
@@ -70,13 +70,8 @@
           <div class="input-field col s6">
             <input id="search" type="search" class="validate">
             <label for="search">Search</label>
-
           <button id="search-button" class="btn-large waves-effect waves-light teal lighten-1">Movie Search</button>
         </div>
-
-            <a href="http://materializecss.com/getting-started.html" id="search-button" class="btn-large waves-effect waves-light teal lighten-1">Movie Search</a>
-          </div>
-
         </div>
         <br>
         <br>
@@ -100,13 +95,28 @@
               <i class="material-icons">movie</i>
             </h2>
             <h5 class="center">Want to Know More?!</h5>
-
-            <div id="movieInfo"></div>
-            
-
-
-
-
+            <div></div>
+            <!--Search Card-->
+            <div id="card2" class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <div id ="moviePoster" class="activator"></div>
+                </div>
+                <div class="card-content">
+                  <span id ="movieInfo" class="card-title activator grey-text text-darken-4">
+                    <i class="material-icons right">more_vert</i>
+                  </span>
+                  <p>
+                    <a href="https://www.amctheatres.com">AMC Theaters</a>
+                  </p>
+                </div>
+                <div class="card-reveal">
+                  <span  class="card-title grey-text text-darken-4">Plot
+                    <p id="movieInfoCard"></p>
+                    <i class="material-icons right">close</i>
+                  </span>
+                 
+                </div>
+              </div>
           </div>
         </div>
 
@@ -130,29 +140,30 @@
               <!--NOW PLAYING REVEAL CARDS START-->
               <div class="card">
                 <div class="card-image waves-effect waves-block waves-light">
-                  <img class="activator" src="assets/images/movie_posters/theburbs.jpg">
+                  <div id ="picture1" class="activator"></div>
                 </div>
                 <div class="card-content">
-                  <span class="card-title activator grey-text text-darken-4">The Burbs
+                  <span id ="movieTitle" class="card-title activator grey-text text-darken-4">
                     <i class="material-icons right">more_vert</i>
                   </span>
                   <p>
-                    <a href="#">This is a link</a>
+                    <a href="https://www.amctheatres.com">AMC Theaters</a>
                   </p>
                 </div>
                 <div class="card-reveal">
-                  <span class="card-title grey-text text-darken-4">Card Title
+                  <span id="movieInformation" class="card-title grey-text text-darken-4">Plot
                     <i class="material-icons right">close</i>
                   </span>
-                  <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                 
                 </div>
               </div>
+              <!--Card 2-->
               <div class="card">
                 <div class="card-image waves-effect waves-block waves-light">
-                  <img class="activator" src="assets/images/movie_posters/et.jpg">
+                  <div id="picture2" class="activator" ></div>
                 </div>
                 <div class="card-content">
-                  <span class="card-title activator grey-text text-darken-4">E.T.
+                  <span id = "movieTitle2" class="card-title activator grey-text text-darken-4">
                     <i class="material-icons right">more_vert</i>
                   </span>
                   <p>
@@ -160,18 +171,18 @@
                   </p>
                 </div>
                 <div class="card-reveal">
-                  <span class="card-title grey-text text-darken-4">Cocktail
+                  <span id="movieInformation2" class="card-title grey-text text-darken-4">Plot
                     <i class="material-icons right">close</i>
                   </span>
-                  <p>Here is some more information about this product that is only revealed once clicked on.</p>
                 </div>
               </div>
-              <div class="card hoverable">
+              <!--Card 3-->
+              <div class="card">
                 <div class="card-image waves-effect waves-block waves-light">
-                  <img class="activator" src="assets/images/movie_posters/coctail.jpg">
+                  <div id="picture3" class="activator"></div> 
                 </div>
                 <div class="card-content">
-                  <span class="card-title activator grey-text text-darken-4">Card Title
+                  <span id="movieTitle3" class="card-title activator grey-text text-darken-4">
                     <i class="material-icons right">more_vert</i>
                   </span>
                   <p>
@@ -179,10 +190,9 @@
                   </p>
                 </div>
                 <div class="card-reveal">
-                  <span class="card-title grey-text text-darken-4">Card Title
+                  <span id = "movieInformation3" class="card-title grey-text text-darken-4">Plot
                     <i class="material-icons right">close</i>
                   </span>
-                  <p>Here is some more information about this product that is only revealed once clicked on.</p>
                 </div>
               </div>
               <!--NOW PLAYING REVEAL CARDS END-->
@@ -214,15 +224,15 @@
     </div>
   </div>
 
-  <div class="container">
+  <!--<div class="container">
     <div class="section">
 
       <div class="row">
         <div class="col s12 center">
 
           <h3><i class="mdi-content-send brown-text"></i></h3>
-          <!-- <h4>Movie Theaters Near You</h4> -->
-          <p class="left-align light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros. Morbi sem neque, posuere et pretium eget, bibendum sollicitudin lacus. Aliquam eleifend sollicitudin diam, eu mattis nisl maximus sed. Nulla imperdiet semper molestie. Morbi massa odio, condimentum sed ipsum ac, gravida ultrices erat. Nullam eget dignissim mauris, non tristique erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
+          <! <h4>Movie Theaters Near You</h4> -->
+          <!-- <p class="left-align light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros. Morbi sem neque, posuere et pretium eget, bibendum sollicitudin lacus. Aliquam eleifend sollicitudin diam, eu mattis nisl maximus sed. Nulla imperdiet semper molestie. Morbi massa odio, condimentum sed ipsum ac, gravida ultrices erat. Nullam eget dignissim mauris, non tristique erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
 
           <h3>
             <i class="mdi-content-send brown-text"></i>
@@ -239,7 +249,7 @@
       </div>
 
     </div>
-  </div>
+  </div> -->
 
   <!-- 
   <div class="parallax-container valign-wrapper">
@@ -293,6 +303,8 @@
   <!--  Scripts-->
   <script src="assets/js/materialize.js"></script>
   <script src="assets/js/init.js"></script>
+    <script src="assets/javascript/app.js"></script>
+    <script src="assets/javascript/jquery.webticker.min.js"></script>
 
 </body>
 
