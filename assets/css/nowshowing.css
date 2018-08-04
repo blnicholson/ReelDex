@@ -83,3 +83,7 @@ nav .nav-wrapper {
 #nav-mobile {
 color: white;
 }
+
+.white {
+  background: black;
+}
