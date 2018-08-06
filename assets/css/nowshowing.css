@@ -34,6 +34,15 @@ footer.page-footer {
 }
 
 body {
+<<<<<<< HEAD
+  background:url("../images/backgrounds/darkness.png");
+}
+
+
+/* h4 {
+  color: white;
+} */
+=======
   background: url("../images/backgrounds/darkness.png");
   font-family: 'Limelight', cursive;
 }
@@ -45,6 +54,7 @@ section{
 h1{
   color: ghostwhite;
 }
+>>>>>>> 4420ace6f20fc489ef031600c73c8b3c77add5f9
 
 h5{
   color: white;
@@ -67,10 +77,13 @@ p{
 color: white;
 }
 
+<<<<<<< HEAD
+=======
 .white {
   background: black;
 }
 
+>>>>>>> 4420ace6f20fc489ef031600c73c8b3c77add5f9
 .material-icons{
   color: ghostwhite;
 }
@@ -124,9 +137,16 @@ font-weight: bold;
   color:black;
   font-size:25px;
 }
+<<<<<<< HEAD
+
+
+video{
+  width:1000px;
+=======
 
 #dots {
   color: darkgrey;
+>>>>>>> 4420ace6f20fc489ef031600c73c8b3c77add5f9
 }
 
 #dots:hover {
