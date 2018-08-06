@@ -1,14 +1,6 @@
-/* Custom Stylesheet */
-/**
- * Use this file to override Materialize files so you can update
- * the core Materialize files in the future
- *
- * Made By MaterializeCSS.com
- */
-
 nav ul a,
 nav .brand-logo {
-  color: #444;
+  color: ghostwhite;
 }
 
 p {
@@ -25,7 +17,6 @@ nav{
   min-height: 380px;
   line-height:0;
   height: auto;
-  color: rgba(255,255,255,.9);
 }
   .parallax-container .section {
     width: 100%;
@@ -43,6 +34,7 @@ footer.page-footer {
 }
 
 body {
+<<<<<<< HEAD
   background:url("../images/backgrounds/darkness.png");
 }
 
@@ -50,44 +42,139 @@ body {
 /* h4 {
   color: white;
 } */
+=======
+  background: url("../images/backgrounds/darkness.png");
+  font-family: 'Limelight', cursive;
+}
+
+section{
+  margin: auto;
+}
+
+h1{
+  color: ghostwhite;
+}
+>>>>>>> 4420ace6f20fc489ef031600c73c8b3c77add5f9
 
 h5{
   color: white;
+  font-family: 'Limelight', cursive;
+}
+
+#searchPlot{
+  color: black;
+}
+
+p{
+  font-family: 'Raleway', sans-serif;
 }
 
 .nav-wrapper {
   width: 100%;
-
-}
-
-.material-icons {
-  color: white;
 }
 
 #nav-mobile {
 color: white;
 }
 
+<<<<<<< HEAD
+=======
+.white {
+  background: black;
+}
+
+>>>>>>> 4420ace6f20fc489ef031600c73c8b3c77add5f9
 .material-icons{
-  color: darkgrey;
+  color: ghostwhite;
 }
+
+#videoIcon{
+  color: ghostwhite;
+}
+
+#videoIcon:hover{
+color: red;
+}
+
 #searchBar{
-  margin:left;
+  margin: auto;
 }
+
+#search-button{
+background: ghostwhite;
+color: black;
+font-family: 'Raleway', sans-serif;
+font-weight: bold;
+}
+
+#search-button:hover{
+  background: red;
+  color: ghostwhite;
+  }
+
+  #card2{
+    width: 400px;
+    height: 600px;
+  }
+
+.card{
+  background: rgba(0, 0, 0, 0.473);
+}
+
+.card-title{
+  color: ghostwhite;
+}
+
+#movieTitle{
+  font-size: 16px;
+}
+.card-reveal p{
+  color: black;
+}
+
 #movieInfo{
   text-align:center;
   color:black;
   font-size:25px;
 }
+<<<<<<< HEAD
 
 
 video{
   width:1000px;
+=======
+
+#dots {
+  color: darkgrey;
+>>>>>>> 4420ace6f20fc489ef031600c73c8b3c77add5f9
 }
-#movieInfo{
-  text-align:center;
-  color:white;
+
+#dots:hover {
+  color: red;
 }
+
+#closeX{
+  color: darkgrey;
+}
+
+#closeX:hover{
+  color: red;
+}
+
+video {
+  width: 800px;
+}
+
+#movieInformation {
+  color: black;
+}
+#movieInformation2 {
+  color: black;
+}
+#movieInformation3 {
+  color: black;
+}
+
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
     position: absolute;
