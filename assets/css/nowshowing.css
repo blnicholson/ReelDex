@@ -34,13 +34,18 @@ footer.page-footer {
 }
 
 body {
-  background:url("../images/backgrounds/darkness.png");
+
+  background: url("../images/backgrounds/darkness.png");
+  font-family: 'Limelight', cursive;
 }
 
+section{
+  margin: auto;
+}
 
-/* h4 {
-  color: white;
-} */
+h1{
+  color: ghostwhite;
+}
 
 h5{
   color: white;
