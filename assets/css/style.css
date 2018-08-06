@@ -40,8 +40,7 @@ main {
 }
 
 .enter-button{
-    margin-left: 45%;
-    
+    margin-left: 45%;  
 }
 
 .btn-large{
@@ -55,9 +54,39 @@ main {
     background: transparent;
 }
 
-#webTicker{
-    /* border: 2px solid ghostwhite; */
-
+/* .news-content{   
+    background: rgba(255, 0, 0, 0.479);   
 }
+
+.tickercontainer{
+    border: 2px solid ghostwhite;
+    
+} */
+
+/* .mask{
+
+} */
+
+/* #webTicker{
+} */
+
+li{
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+}
+
+
+/* .ticker-spacer{
+
+} */
+
+/* .tickeroverlay-left{
+
+} */
+
+/* .tickeroverlay-right{
+
+} */
+
 
 /*============CONTENT END===============================*/
