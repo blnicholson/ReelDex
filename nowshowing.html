@@ -27,230 +27,193 @@
   <nav role="navigation">
     <div class="nav-wrapper container">
       <a id="logo-container" href="#" class="brand-logo">
-        <i class="material-icons">videocam</i>
-      </a>
-      <ul class="right hide-on-med-and-down">
-        <li>
-          <a href="landing.html">Home</a>
-        </li>
-        <li>
-          <a href="#">Movies in Theaters Now</a>
-        </li>
-        <li>
-          <a href="#">Movie Blast From the Past</a>
-        </li>
-      </ul>
-
-      <ul id="nav-mobile" class="sidenav">
-        <li>
-          <a href="#">Movies in Theaters Now</a>
-        </li>
-        <li>
-          <a href="#">Movie Blast From the Past</a>
-        </li>
-      </ul>
-      <a href="#" data-target="nav-mobile" class="sidenav-trigger">
-        <i class="material-icons">menu</i>
+        <i id="videoIcon" class="material-icons">videocam</i>
       </a>
     </div>
   </nav>
 
   <div id="index-banner" class="parallax-container">
-    <div class="section no-pad-bot">
+    <div class="section">
       <div class="container">
 
         <br>
         <br>
-        <h1 class="header center teal-text text-lighten-2">ReeldeX</h1>
+
+        <h1 class="header center">ReeldeX</h1>
 
         <br>
         <br>
-        <h1 class="header center teal-text text-lighten-2">Reels</h1>
 
         <div class="row center">
           <h5 class="header col s12 light">An App Where You Can Find a Cool Movie, Check Out the Trailer, & Listen to the Soundtrack</h5>
         </div>
 
-        <div id="searchBar" class="row center">
-          <div class="input-field col s6">
-            <input id="search" type="search" class="validate">
-            <label for="search">Search</label>
-            <button id="search-button" class="btn-large waves-effect waves-light teal lighten-1">Movie Search</button>
-          </div>
-        </div>
         <br>
         <br>
 
       </div>
     </div>
     <div class="parallax">
-      <img src="assets/images/62b_movies2018.jpg" alt="movie img 1">
+      <img src="assets/images/backgrounds/movie_header_1.png" alt="movie img 1">
     </div>
   </div>
 
 
   <div class="container">
-    <div class="section">
 
-      <!--   Icon Section   -->
-      <div class="row">
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text">
-              <i class="material-icons">movie</i>
-            </h2>
-            <h5 class="center">Want to Know More?!</h5>
-            <div></div>
+    <!--   Icon Section   -->
+    <div id="searchTitle" class="row center">
 
-            <!--Search Card-->
-            <div id="card2" class="card">
-              <div class="card-image waves-effect waves-block waves-light">
-                <div id="moviePoster" class="activator"></div>
-              </div>
-              <div class="card-content">
-                <span id="movieInfo" class="card-title activator grey-text text-darken-4">
-                  <p id="information"></p>
-                  <i class="material-icons right">more_vert</i>
-                </span>
-                <p>
-                  <a href="https://www.amctheatres.com">AMC Theaters</a>
-                </p>
-              </div>
-              <div class="card-reveal">
-                <span class="card-title grey-text text-darken-4">Plot
-                  <p id="movieInfoCard"></p>
-                  <i class="material-icons right">close</i>
-                </span>
+      <div class="col s12 m12">
+        <div class="icon-block">
+          <h2 class="center">
+            <i class="material-icons">movie</i>
+          </h2>
+          <h5 class="center">Movies From The Vault</h5>
 
-              </div>
+          <div id="searchBar" class="row center">
+            <div class="input-field col s6">
+              <input id="search" type="search" class="validate">
+              <label for="search">Search</label>
+              <button id="search-button" class="btn-large">Movie Search</button>
             </div>
           </div>
+
         </div>
 
-        <div class="col s12 m12">
-          <div class="icon-block">
-            <h2 class="center brown-text">
-              <i class="material-icons">theaters</i>
-            </h2>
-            <h5 class="center">Now Playing in Theaters</h5>
-            <div id="nowPlaying">
+      </div>
 
-              <!--NOW PLAYING REVEAL CARDS START-->
-              <div class="row">
-                <div class="col s12 m4">
-                  <div class="card">
-                    <div class="card-image waves-effect waves-block waves-light">
-                      <div id="picture1" class="activator"></div>
-                    </div>
-                    <div class="card-content">
-                      <span id="movieTitle" class="card-title activator grey-text text-darken-4">
-                        <i class="material-icons right">more_vert</i>
-                      </span>
-                      <p>
-                        <a href="https://www.amctheatres.com">AMC Theaters</a>
-                      </p>
-                    </div>
-                    <div class="card-reveal">
-                      <span id="movieInformation" class="card-title grey-text text-darken-4">Plot
-                        <i class="material-icons right">close</i>
-                      </span>
+    </div>
 
-                    </div>
-                  </div>
-                </div>
-                <!--Card 2-->
+<br>
+<br>
 
-                <div class="col s12 m4">
-                  <div class="card">
-                    <div class="card-image waves-effect waves-block waves-light">
-                      <div id="picture2" class="activator"></div>
-                    </div>
-                    <div class="card-content">
-                      <span id="movieTitle2" class="card-title activator grey-text text-darken-4">
-                        <i class="material-icons right">more_vert</i>
-                      </span>
-                      <p>
-                        <a href="#">This is a link</a>
-                      </p>
-                    </div>
-                    <div class="card-reveal">
-                      <span id="movieInformation2" class="card-title grey-text text-darken-4">Plot
-                        <i class="material-icons right">close</i>
-                      </span>
-                    </div>
-                  </div>
-                </div>
-             
+    <!--Search Card-->
+    <div class="row center">
+      <div class="col s6 m6">
+        <div id="card2" class="card">
+          <div class="card-image">
+            <div id="moviePoster" class="activator"></div>
+          </div>
+          <div class="card-content">
+            <span id="movieInfo" class="card-title activator">
+              <p id="information"></p>
+              <i id="dots" class="material-icons right">more_vert</i>
+            </span>
+            <p>
+              <a href="https://www.amctheatres.com">AMC Theaters</a>
+            </p>
+          </div>
+          <div class="card-reveal">
+            <span class="card-title">Plot
+              <p id="movieInfoCard"></p>
+              <i id="closeX" class="material-icons right">close</i>
+            </span>
+          </div>
+        </div>
+      </div>
 
-              <!--Card 3-->
+      <div class="col s6 m6">
+        <h5 class="header">Movie Trailer</h5>
+        <video class="responsive-video" controls>
+          <source src="movie.mp4" type="video/mp4">
+        </video>
+      </div>
+    </div>
 
-              <div class="col s12 m4">
-                <div class = "card">
-                <div class="card-image waves-effect waves-block waves-light">
-                  <div id="picture3" class="activator"></div>
+    <br>
+    <br>
+
+
+    <div class="col s12 m12">
+      <div class="icon-block">
+        <h2 class="center">
+          <i class="material-icons">theaters</i>
+        </h2>
+        <h5 class="center">Now Playing in Theaters</h5>
+        <div id="nowPlaying">
+
+          <!--NOW PLAYING REVEAL CARDS START-->
+          <div class="row center">
+            <div class="col s12 m4">
+
+              <!--Card 1-->
+              <div class="card">
+                <div class="card-image">
+                  <div id="picture1" class="activator"></div>
                 </div>
                 <div class="card-content">
-                  <span id="movieTitle3" class="card-title activator grey-text text-darken-4">
-                    <i class="material-icons right">more_vert</i>
+                  <span id="movieTitle" class="card-title activator">
+                    <i id="dots" class="material-icons right">more_vert</i>
                   </span>
                   <p>
-                    <a href="#">This is a link</a>
+                    <a href="https://www.amctheatres.com">AMC Theaters</a>
                   </p>
                 </div>
                 <div class="card-reveal">
-                  <span id="movieInformation3" class="card-title grey-text text-darken-4">Plot
-                    <i class="material-icons right">close</i>
+                  <span id="movieInformation" class="card-title">Plot
+                    <i id="closeX" class="material-icons right">close</i>
                   </span>
                 </div>
+              </div>
+            </div>
+
+            <!--Card 2-->
+            <div class="col s12 m4">
+              <div class="card">
+                <div class="card-image">
+                  <div id="picture2" class="activator"></div>
+                </div>
+                <div class="card-content">
+                  <span id="movieTitle2" class="card-title activator">
+                    <i id="dots" class="material-icons right">more_vert</i>
+                  </span>
+                  <p>
+                    <a href="https://www.amctheatres.com">AMC Theaters</a>
+                  </p>
+                </div>
+                <div class="card-reveal">
+                  <span id="movieInformation2" class="card-title">Plot
+                    <i id="closeX" class="material-icons right">close</i>
+                  </span>
                 </div>
               </div>
+            </div>
+
+            <!--Card 3-->
+            <div class="col s12 m4">
+              <div class="card">
+                <div class="card-image">
+                  <div id="picture3" class="activator"></div>
+                </div>
+                <div class="card-content">
+                  <span id="movieTitle3" class="card-title activator">
+                    <i id="dots" class="material-icons right">more_vert</i>
+                  </span>
+                  <p>
+                    <a href="https://www.amctheatres.com">AMC Theaters</a>
+                  </p>
+                </div>
+                <div class="card-reveal">
+                  <span id="movieInformation3" class="card-title">Plot
+                    <i id="closeX" class="material-icons right">close</i>
+                  </span>
+                </div>
               </div>
             </div>
-            </div>
+
           </div>
-          <!--NOW PLAYING REVEAL CARDS END-->
         </div>
       </div>
     </div>
   </div>
-
-  </div>
-  </div>
-
+  <!--NOW PLAYING REVEAL CARDS END-->
 
   <div class="parallax-container valign-wrapper">
-    <div class="section no-pad-bot">
-      <div class="container">
-        <div class="row center">
-          <h5 class="header col s12 light">Movie Trailer to Appear Here</h5>
-          <video class="responsive-video" controls>
-            <source src="movie.mp4" type="video/mp4">
-          </video>
-        </div>
-      </div>
-    </div>
-
-
-
-=======
-
-
-
-    <div class="parallax"><img src="assets/images/backgrounds/background-projector.png" alt="Movie Reel img 2"></div>
-
-
     <div class="parallax">
-      <img src="assets/images/moviereelimage2.JPG" alt="Movie Reel img 2">
+      <img src="assets/images/backgrounds/background-projector.png" alt="Movie Reel img 2">
     </div>
-
   </div>
-
-  
-  
-=======
-
-  </div>
-
 
   <!--  Scripts-->
   <script src="assets/js/materialize.js"></script>

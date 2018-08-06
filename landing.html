@@ -18,9 +18,6 @@
 </head>
 
 <body>
-    <header>
-
-    </header>
 
     <main>
         <div class="row">
@@ -32,7 +29,7 @@
                     </h6>
 
                     <div class="carousel">
-                        <a id ="movieOne" class="carousel-item" href="#one!">
+                        <a id="movieOne" class="carousel-item" href="#one!">
                             <img src="assets/images/movie_posters/batman.jpg">
                         </a>
                         <a class="carousel-item" href="#two!">
@@ -60,7 +57,9 @@
                     <br>
                     <div class="enter-button">
                         <form action="nowshowing.html">
-                                <a class="btn-floating btn-large"><i class="material-icons">theaters</i></a>
+                            <a class="btn-floating btn-large">
+                                <i class="material-icons">theaters</i>
+                            </a>
                         </form>
 
                     </div>
@@ -74,18 +73,20 @@
             <div class="row">
                 <div class="col l6 s12">
                     <h5 class="white-text">Entertainment News</h5>
-                    <div class="ticketcontainer">
-                        <div class="mask">
-                            <ul id="webTicker">
-                                <li class="ticker-spacer"></li>
-                                    <li id="scrolling1">This List Item will scroll infintely</li>
-                                    <li id="scrolling2">And this one will follow it</li>
-                                    <li id="scrolling3">Finally when it goes out of screen, it will queue again at the end</li>
-                                <li class="last">Finally when it goes out of screen. it will queue again at the end</li>
-                            </ul>
-                        <span class="ticketoverlay-left">&nbsp</span>
-                        <span class="ticketoverlay-right">&nbsp</span>
-                        
+                    <div class="news-content">
+                        <div class="tickercontainer">
+                            <div class="mask">
+                                <ul id="webTicker">
+                                    <li class="ticker-spacer"></li>
+                                    <li id="scrolling1"></li> 
+                                    <li id="scrolling2"></li> 
+                                    <li id="scrolling3"></li> 
+                                    <li class="last"></li>
+                                </ul>
+                                <span class="tickeroverlay-left">&nbsp</span>
+                                <span class="tickeroverlay-right">&nbsp</span>
+
+                            </div>
                         </div>
                     </div>
                 </div>
