@@ -103,15 +103,9 @@ $("#card2").hide();
         var poster = $("<img>").attr("src", imgURL);
 
         //placing API call into HTML elements
-<<<<<<< HEAD
         $("#information").append("<p>" + movieTitle);
         $("#moviePoster").append(poster);
         $("#movieInfoCard").append("<p> Rotten Tomotoes Rating: " + rottenTomotoes)
-=======
-        $("#movieInfo").append("<h5>" + movieTitle);
-        $("#moviePoster").append(poster);
-        $("#movieInfoCard").append( "<p> Rotten Tomotoes Rating: " + rottenTomotoes);
->>>>>>> 4420ace6f20fc489ef031600c73c8b3c77add5f9
         $("#movieInfoCard").append("<p> Leading actors: " + actors);
         $("#movieInfoCard").append("<p> Movie is rated: " + rated);
         $("#movieInfoCard").append("<h5 id='searchPlot'> Plot: " + plot);
