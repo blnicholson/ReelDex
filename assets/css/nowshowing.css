@@ -34,13 +34,17 @@ footer.page-footer {
 }
 
 body {
-  background:url("../images/backgrounds/darkness.png");
+  background: url("../images/backgrounds/darkness.png");
+  font-family: 'Limelight', cursive;
 }
 
+section{
+  margin: auto;
+}
 
-/* h4 {
-  color: white;
-} */
+h1{
+  color: ghostwhite;
+}
 
 h5{
   color: white;
@@ -61,6 +65,10 @@ p{
 
 #nav-mobile {
 color: white;
+}
+
+.white {
+  background: black;
 }
 
 .material-icons{
@@ -115,6 +123,10 @@ font-weight: bold;
   text-align:center;
   color:black;
   font-size:25px;
+}
+
+#dots {
+  color: darkgrey;
 }
 
 #dots:hover {
