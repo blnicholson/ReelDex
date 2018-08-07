@@ -89,7 +89,7 @@ $(document).ready(function() {
     $("#movieNine").html(image9);
 
     //User on-click to search for movies
-    $("#search-button").on("click", function(event) {
+    $("#search-button").on("click", function() {
       event.preventDefault();
       userValidation();
       $("#card2").show();
