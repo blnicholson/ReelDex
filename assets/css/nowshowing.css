@@ -54,7 +54,7 @@ h5{
 
 #searchPlot{
   color: black;
-}
+} 
 
 p{
   font-family: 'Raleway', sans-serif;
@@ -114,12 +114,10 @@ font-weight: bold;
 }
 .card-reveal p{
   color: black;
+  font-family: 'Raleway', sans-serif;
 }
-
-#movieInfo{
-  text-align:center;
-  color:black;
-  font-size:25px;
+#title{
+  font-weight: bold;
 }
 
 #dots:hover {
