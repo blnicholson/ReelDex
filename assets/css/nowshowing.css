@@ -115,9 +115,21 @@ font-weight: bold;
   color: black;
   font-family: 'Raleway', sans-serif;
 }
+
+
+#movieInfo{
+  text-align:center;
+  color:black;
+  font-size:25px;
+}
+
+#dots {
+  color: darkgrey;
+}
 #title{
   font-weight: bold;
 }
+
 
 #dots:hover {
   color: red;
