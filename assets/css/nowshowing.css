@@ -34,7 +34,10 @@ footer.page-footer {
 }
 
 body {
+<<<<<<< HEAD
+=======
 
+>>>>>>> 0b54447733d79ad4c62ac571522f6db46627ab3d
   background: url("../images/backgrounds/darkness.png");
   font-family: 'Limelight', cursive;
 }
@@ -68,6 +71,13 @@ p{
 color: white;
 }
 
+<<<<<<< HEAD
+.white {
+  background: black;
+}
+
+=======
+>>>>>>> 0b54447733d79ad4c62ac571522f6db46627ab3d
 .material-icons{
   color: ghostwhite;
 }
@@ -116,8 +126,20 @@ font-weight: bold;
   color: black;
   font-family: 'Raleway', sans-serif;
 }
+<<<<<<< HEAD
+
+#movieInfo{
+  text-align:center;
+  color:black;
+  font-size:25px;
+}
+
+#dots {
+  color: darkgrey;
+=======
 #title{
   font-weight: bold;
+>>>>>>> 0b54447733d79ad4c62ac571522f6db46627ab3d
 }
 
 #dots:hover {
