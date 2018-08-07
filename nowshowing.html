@@ -28,7 +28,7 @@
 <body>
   <nav role="navigation">
     <div class="nav-wrapper container">
-      <a id="logo-container" href="#" class="brand-logo">
+      <a id="logo-container" href="landing.html" class="brand-logo">
         <i id="videoIcon" class="material-icons">videocam</i>
       </a>
     </div>
@@ -47,7 +47,7 @@
         <br>
 
         <div class="row center">
-          <h5 class="header col s12 light">An App Where You Can Find a Cool Movie, Check Out the Trailer, & Listen to the Soundtrack</h5>
+          <h5 class="header col s12 light">Built for Movie Buffs by Movie Buffs</h5>
         </div>
 
         <br>
@@ -75,9 +75,20 @@
 
           <div id="searchBar" class="row center">
             <div class="input-field col s6">
-              <input id="search" type="search" class="validate">
+              <input id="search" type="search">
               <label for="search">Search</label>
-              <button id="search-button" class="btn-large">Movie Search</button>
+              <a id="search-button" href="#modal1" class="btn-large  modal-trigger">Movie Search</a>
+              <div id="modal1" class="modal">
+                  <div class="modal-content">
+                      <h4>ERROR</h4>
+                      <p>Please Enter a Movie Title</p>
+                    </div>
+                    <div class="modal-footer">
+                      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
+                    </div>
+              </div>
+                  
+
             </div>
           </div>
 
@@ -103,11 +114,12 @@
               <i id="dots" class="material-icons right">more_vert</i>
             </span>
             <p>
-              <a href="https://www.amctheatres.com">AMC Theaters</a>
+              <a id ="buy" >Amazon</a>
             </p>
           </div>
           <div class="card-reveal">
-            <span class="card-title">Plot
+            <span class="card-title">
+              <p id="title"></p>
               <p id="movieInfoCard"></p>
               <i id="closeX" class="material-icons right">close</i>
             </span>
@@ -117,9 +129,7 @@
 
       <div class="col s6 m6">
         <h5 class="header">Movie Trailer</h5>
-        <video class="responsive-video" controls>
-          <source src="movie.mp4" type="video/mp4">
-        </video>
+        <div id="player"></div>
       </div>
     </div>
 
@@ -216,12 +226,17 @@
       <img src="assets/images/backgrounds/background-projector.png" alt="Movie Reel img 2">
     </div>
   </div>
+  <!--User Validation Modal-->
 
+  <!-- Modal Structure -->
+  
+ 
   <!--  Scripts-->
   <script src="assets/js/materialize.js"></script>
   <script src="assets/js/init.js"></script>
   <script src="assets/javascript/app.js"></script>
   <script src="assets/javascript/jquery.webticker.min.js"></script>
+
 
 </body>
 
